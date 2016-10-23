@@ -12,7 +12,7 @@
 
 <p>
   <strong>Micropost:</strong>
-  <%= @user.microposts.find(@user).content %>
+  <%= @user.microposts.first.content %>
 </p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
